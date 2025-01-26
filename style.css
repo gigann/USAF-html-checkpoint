@@ -114,3 +114,16 @@ input[type="password"] {
     padding: 14px;
     margin-bottom: 30px;
 }
+
+.results-link {
+    background-color: #6D757D;
+    color: #E4B014;
+}
+
+.results-movie {
+    display: inline-block;
+}
+
+.results-info {
+    display: inline-block;
+}
