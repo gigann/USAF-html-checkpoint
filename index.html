@@ -10,11 +10,20 @@
 </head>
 
 <body>
-    <nav>
-        <div class="company-name"><strong>GMDB</strong></div>
-    </nav>
+    <header>
+        <div class="company-name">GMDB</div>
+        <nav>
+            <a class="home-link" href="./home.html">Home</a>
+            <a class="login-link" href="./index.html">Login</a>
+        </nav>
 
-    <form>
+        <form class="search-form">
+            <input type='search' placeholder="Search">
+            <button class="search-button" type="submit">Search</button>
+        </form>
+    </header>
+
+    <form class="login-form">
         <h1>Login</h1>
 
         <label>Email:</label>
